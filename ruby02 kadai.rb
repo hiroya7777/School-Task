@@ -10,22 +10,31 @@
 
 7. kawaguchi = { name: 'hiroya kawaguchi',birthday: "1992/11/17",bload: "B" }
 
-8.def plus_ruby
-   p "like"+"ruby"
-  end
-   plus_ruby
 
-  def plus_ruby
-   p "yhee"+"ruby"
-  end
-   plus_ruby
+課題8.9について訂正しましたので添削お願い致します。
 
-9.def plus_one
-   p 4.next
-  end
-  plus_one
+8.
+def plus_ruby(a)
+  (a)+("ruby")
+end
+   p plus_ruby("like")
+  
 
-  def plus_one
-   p 10.next
-  end
-   plus_one
+def plus_ruby(a)
+  (a)+("ruby")
+end
+   p plus_ruby("yhee")
+
+
+9.
+def plus_one(a)
+    (a).next
+end
+    p plus_one(4)
+
+
+def plus_one(a)
+    (a).next
+end
+    p plus_one(10)
+  
