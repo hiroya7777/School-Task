@@ -1,0 +1,168 @@
+body{
+  background-color: ##ffffff ;
+  font-size: 14px;
+  color: #333;
+  margin:0;
+}
+
+h1,h2,h3,h4,h5 {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+header {
+  margin-top: 20px;
+}
+
+.container {
+  width: 920px;
+  margin: 0 auto 40px auto;
+}
+
+
+
+.header-title-area {
+  margin-top: 40px;
+  margin-bottom: 30px;
+
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: lighter;
+text-align: center;
+}
+
+.text-sub {
+  color: #777;
+}
+
+.header-navigation {
+  width: 100%;
+  background-color: #333;
+  padding: 20px 0;
+
+}
+
+.header-navigation:after {
+  clear: both;
+  display: block;
+  content:"";
+}
+
+.header-navigation li {
+  float: left;
+  padding: 0 30px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.header-navigation li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.text-title {
+  font-size: 25px;
+  font-weight: bold;
+border-bottom: 1px dotted #333333;
+  margin-bottom: 20px;
+}
+
+.text-title2 {
+  font-size: 15px;
+  font-weight: lighter;
+　color: #0000FF
+  margin-bottom: 0px;
+  margin-bottom: 20px;
+}
+
+.text-title3 {
+  font-size: 20px;
+  font-weight: lighter;
+　color: #0000FF
+  margin-bottom: 0px;
+  margin-bottom: 20px;
+}
+
+.card-contents {
+ padding: 5px;
+ display: block;
+ background-color: #fff;
+ width: 450px;
+  }
+
+.card-contents2 {
+  padding: 40px;
+  display: block;
+  background-color: #fff;
+  width: 250px;
+  }
+
+
+.card-contents3 {
+  padding: 10px;
+  display: block;
+  background-color: #fff;
+  width: 250px;
+  float: left;
+    }
+
+.left-contents {
+  width: 450px;
+  float: left;
+  margin: : 40px;
+    }
+
+.left-contents1 {
+  width: 200px;
+  float: left;
+margin-bottom: : 0px 0;
+}
+
+.left-contents2 {
+  width: 250px;
+  float:left;
+　
+}
+
+.card-contents:after{
+  clear: both;
+ display: block;
+ content: " ";
+}
+.right-contents {
+  width: 300px;
+  float: right;
+　margin: : 40px;
+}
+
+
+.staff-image {
+　float: left;
+margin: 0 20px 0px 0;
+ margin-bottom: 0px;
+ width: 150px;
+ height: 150px;
+ display: block;
+}
+
+
+.staff-image2 {
+　float: left;
+margin: 0 5px 0px 0;
+margin-bottom: 0px;
+width:  75px;
+height: 75px;
+display: inline-block;
+}
+
+.copyright {
+  color: #777;
+  text-align: center;
+}
+.main:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
