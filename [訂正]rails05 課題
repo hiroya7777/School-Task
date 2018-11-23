@@ -13,6 +13,5 @@ class User < ApplicationRecord
   validates :password_confirmation, length: { in: 8..32 }
   
   # 課題「パスワードをアルファベット、数字の混合のみ可能にしてください」
-  validates :password, format:{ with: /\A[A-Za-z0-9]+\z/ }
-  validates :password_confirmation, format:{ with: /\A[A-Za-z0-9]+\z/ }
-end
+  validates :password, format:{ with:/\A?=[0-9][A-z]+\z/}
+  validates :password_confirmation, format:{ with:/\A?=[0-9][A-z]+\z/}
