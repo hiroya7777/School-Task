@@ -28,7 +28,7 @@ class SessionsController < ApplicationController
     session.delete(:user_id)
     @current_user = nil
   end
-
+　  #以下にストロングパラメータを実装する。
   def user_params
     params.require(:user).permit(:log_in, :log_out)
   end
