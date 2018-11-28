@@ -12,10 +12,12 @@ class ImageUploader < CarrierWave::Uploader::Base
   def store_dir
     "uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
   end
-
+  
+  #画像サイズを指定
   def size_range
     1..10.megabytes
   end
+  
   # Provide a default URL as a default if there hasn't been a file uploaded:
   # def default_url(*args)
   #   # For Rails 3.1+ asset pipeline compatibility:
@@ -35,9 +37,10 @@ class ImageUploader < CarrierWave::Uploader::Base
   # version :thumb do
   #   process resize_to_fit: [50, 50]
   # end
-
+　　　
   # Add a white list of extensions which are allowed to be uploaded.
   # For images you might use something like this:
+  # 画像保存タイプを限定
   def extension_white_list
     %w(jpg jpeg png)
   end
